@@ -13,6 +13,7 @@ if 'target_key' not in st.session_state:
     st.session_state.target_key = random.randint(1, 26)
 
 # --- Block 2: Sidebar Navigation ---
+st.sidebar.title("Computer security Task 1")
 st.sidebar.title("Navigation")
 task = st.sidebar.selectbox("Select a Task", ["Task 1: Hashing", "Task 2: Caesar Cipher", "Task 2: Test Yourself"])
 
